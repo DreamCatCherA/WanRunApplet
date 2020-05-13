@@ -1,0 +1,55 @@
+<!--pages/order-complie/order-complie.wxml-->
+<view class="complie-i">
+  <view class="i-flex">
+    <view class="loadtime">装货时间</view>
+    <view class="border-time">05月02日 上午10:00</view>
+    <view>〉</view>
+  </view>
+  <view class="i-flex">
+    <view class="loadtime">卸货时间</view>
+    <view class="explain">非必填,卸货时间</view>
+    <view> 〉</view>
+  </view>
+  <view class="i-flex">
+    <view class="loadtime">服务要求和备注</view>
+    <view class="border-time" id="xuantian">选填,请输入</view>
+    <view> 〉</view>
+  </view>
+  <view class="hint,i-flex">完善特殊要求，可以避免司机误抢哦!</view>
+  <view id="i-btn">
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+    <view class="btnwidth">
+      <view class="flex-btn">高价急走</view>
+    </view>
+  </view>
+  <view class="jiange1"></view>
+</view>
+<view class="complie-i">
+  <view class="i-flex">
+     <view class="loadtime">开具增值税专用发票</view>
+     <view class="activity">满3000送50</view>
+     <view class="ii-round"></view>
+  </view>
+  <view class="i-flex">
+     <view class="loadtime">购买运货险</view>
+     <view class="activity">满30减3元</view>
+     <view class="ii-round"></view>
+  </view>
+</view>
